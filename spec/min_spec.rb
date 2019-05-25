@@ -5,10 +5,10 @@ describe "#get_the_min" do
   
   let :groceries do
     {
-      grains: ["milk", "yogurt", "cheese"],
+      dairy: ["milk", "yogurt", "cheese"],
       vegetable: ["carrots", "broccoli", "cucumbers"],
       meat: ["chicken", "steak", "salmon"],
-      dairy: ["rice", "pasta"]
+      grains: ["rice", "pasta"]
     }
   end
 
